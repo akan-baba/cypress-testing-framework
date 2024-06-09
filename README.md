@@ -1,6 +1,6 @@
 nopCommerce test website
 
-## Project Namedetails
+## Project Name details
 This project contains end-to-end tests using the Cypress testing framework for testing a nopcommerce dummy website
 
 ## Prerequisites
