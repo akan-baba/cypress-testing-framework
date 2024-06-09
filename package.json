@@ -1,0 +1,17 @@
+{
+  "name": "cypress-testing-framework",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cypress:run": "npx cypress run --env ENV=dev --browser chrome && npx cypress run --env ENV=dev --browser firefox && npx cypress run --env ENV=live --browser chrome && npx cypress run --env ENV=live --browser firefox && npx cypress run --env ENV=staging --browser chrome && npx cypress run --env ENV=staging --browser firefox && npx cypress run --env ENV=qa --browser chrome && npx cypress run --env ENV=qa --browser firefox && npx cypress run --env ENV=production --browser chrome && npx cypress run --env ENV=production --browser firefox",
+    "cypress:open": "npx cypress open --env ENV=qa"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@faker-js/faker": "^8.4.1",
+    "cypress": "^13.11.0"
+  }
+}
