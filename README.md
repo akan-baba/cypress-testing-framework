@@ -12,7 +12,8 @@ This project contains end-to-end tests using the Cypress testing framework for t
 
 1. Clone this repository to your local machine:
 
-git clone https://github.com/akan-baba/nopCommerce.git
+git clone 
+https://github.com/akan-baba/cypress-testing-framework.git
 
 ## Navigate to the project directory:
 
